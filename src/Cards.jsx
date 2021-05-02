@@ -1,17 +1,11 @@
 import React from 'react'
 import './Card.css'
 
-
-
-
-
-
 function Cards(props) {
     return (
-
         <div className = "cards">
             <div className = "card">
-                <img src= {props.imgsrc} alt="picture" className = "image" />
+                <img src= {props.imgsrc} className = "image" alt="" />
                 <div className = "title">
                     <span className = "title_place"> {props.pname} </span>
                     <a href= {props.link} target = "_anurag">
@@ -24,4 +18,4 @@ function Cards(props) {
     );
 }
 
-export default Cards
+export default Cards;

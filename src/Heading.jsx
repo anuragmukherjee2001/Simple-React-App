@@ -4,7 +4,7 @@ var heading = {
     padding: '30px 0',
     fontFamily: "Raleway",
     fontSize: '13px',
-    fontSize: '1.5rem',
+
     letterSpacing: '2px',
     fontWeight: '500',
     color: '#868686',
